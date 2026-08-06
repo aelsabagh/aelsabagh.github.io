@@ -1,0 +1,17 @@
+{
+  "name": "aelsabagh.github.io",
+  "install": "python3 --version",
+  "terminals": [
+    {
+      "name": "static-server",
+      "command": "python3 -m http.server 8080",
+      "description": "Serves the static GitHub Pages site at http://localhost:8080. Open index.html to browse the digital garden."
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 8080
+    }
+  ]
+}
