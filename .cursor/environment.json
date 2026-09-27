@@ -1,0 +1,17 @@
+{
+  "name": "aelsabagh.github.io",
+  "install": "./.cursor/install.sh",
+  "terminals": [
+    {
+      "name": "Web server",
+      "command": "python3 -m http.server 8080 --bind 0.0.0.0 --directory .",
+      "description": "Serves the static TiddlyWiki digital garden at http://localhost:8080"
+    }
+  ],
+  "ports": [
+    {
+      "name": "web server",
+      "port": 8080
+    }
+  ]
+}
